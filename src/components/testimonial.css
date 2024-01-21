@@ -1,0 +1,155 @@
+.test{
+    padding-top: 2rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    
+}
+.test-l{
+    margin-top: -3rem;
+    color:white;
+    text-transform: uppercase;
+    display: flex;
+    flex: 1 1;
+    gap: 1rem;
+    padding-left: 1rem;
+    flex-direction: column;
+}
+.test-l>:nth-child(1){
+     color: var(--orange);
+     font-size: 20px;
+     font-weight: normal;
+}
+.test-l>:nth-child(2){
+     font-size: 1.5rem;
+     font-weight: bolder;
+}
+.test-l>:nth-child(3){
+     font-size: 1.5rem;
+     color: white;;
+     font-weight: bolder;
+}
+
+.test-l>:nth-child(4){
+    color:white;
+    text-transform: lowercase;
+    font-size: 16px;
+    white-space: wrap;
+    line-height: 2;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+#temp>span{
+    font-weight: lighter;
+    font-size: 16px;
+}
+.test-r{
+    position: relative;
+    flex: 1 ;
+
+}
+.test-r>img{
+    object-fit: cover;
+    position: absolute;
+    top: -2rem;
+    left: 5rem;
+    width: 8.5rem;
+    height: 10rem;
+    
+}
+.test-r>:nth-child(1){
+    position: absolute;
+    border: 3px solid orange;
+    top:-2.8rem;
+    left: 4.2rem;
+    width: 8.5rem;
+    height: 10rem;
+}
+.test-r>:nth-child(2){
+    position: absolute;
+    bottom:10.3rem;
+    right: 5.5rem;
+    width: 8.5rem;
+    height: 10rem;
+    background:var(--planCard);
+}
+#arrow>img{
+    position: relative;
+    top: 8rem;
+    cursor: pointer;
+    margin-left: 1rem;
+       width: 1rem;
+       height: 1rem;
+       color: white;
+}
+@media screen and (max-width:768px){
+    .test-l{
+        margin-top: -8rem;
+        color:white;
+        white-space: nowrap;
+        text-transform: uppercase;
+        display: flex;
+        font-size: 0.5rem;
+        gap: 1rem;
+        padding-left: 0.5rem;
+        flex-direction: column;
+    }
+    .test-l>:nth-child(2){
+        font-size: 0.9rem;
+    }
+    .test-l>:nth-child(3){
+        font-size: 0.9rem;
+    }
+    .test-l>:nth-child(4){
+        font-size: 0.45rem;
+        white-space: wrap;
+        margin-left: -0.4rem;
+        margin-right: -0.7rem;
+
+    }
+    .test-l>:nth-child(5){
+        position: relative;
+        font-size: 0.45rem;
+        margin-top: -1.5rem;
+        white-space: wrap;
+        margin-left: -0.4rem;
+        margin-right: -0.7rem;
+
+    }
+    .test-r>:nth-child(1){
+        position: absolute;
+        display: none;
+        border: 3px solid orange;
+        top:-2.8rem;
+        left: 4.2rem;
+        width: 8.5rem;
+        height: 10rem;
+    }
+    .test-r>:nth-child(2){
+        position: absolute;
+        display: none;
+      top: 12rem;
+        right: 0rem;
+        width: 8.5rem;
+        height: 10rem;
+        background:var(--planCard);
+    }
+    .test-r>#hi{
+        position: absolute;
+        left: -6rem;
+        object-fit: cover;
+        margin-bottom: 25rem;
+        top: -12rem;
+        margin-right: 30rem;
+        width: 6.5rem;
+        height: 7rem;
+        
+    }
+    #arrow>img{
+        position: relative;
+        margin-top: 5rem;
+        margin-left: -2.3rem;  
+    padding: 0 38px;  }
+
+
+}
